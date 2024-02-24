@@ -1,5 +1,5 @@
 body{
-    font-family:Roboto,sans-serif;
+    font-family:"Roboto",sans-serif;
     margin: 0;
 }
 
@@ -7,6 +7,9 @@ body{
 @media screen and (max-width:375px){
     body{
         font-weight: 400;
+        font-family: "Roboto",sans-serif;
+        letter-spacing: -0.5px;
+
     }
 
     .Mobile{
@@ -34,6 +37,7 @@ body{
         list-style-type: none;
         padding: 0;
         text-align: left;
+        line-height: 25px;
     }
     
     #fon{
@@ -41,8 +45,47 @@ body{
         color: tomato;
         padding:10px;
     }
-    div{
-        text-indent: 2px;
-    }
+
+
+.space{
+    text-indent: 35px;
+}
+
+form p {
+    font-size: 12px;
+    font-weight: bold;
+    color:hsl(235,18%,26%) ;
+}
+
+
+form input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding:15px 70px 15px 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 15px;
     
 }
+
+form button{
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(235,18%,26%);
+    padding:15px 40px 15px 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    display: block;
+
+ }
+
+
+
+}
+
+    
