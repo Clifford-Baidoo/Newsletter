@@ -1,5 +1,4 @@
 body{
-    font-family:"Roboto",sans-serif;
     margin: 0;
 }
 
@@ -84,6 +83,69 @@ form button{
 
  }
 
+ .ak{
+    content: "";
+
+ }
+
+
+
+}
+
+@media screen and (max-width:1400px) and  (min-width:367px) {
+    body{
+        font-weight: 400;
+        font-family: "Roboto",sans-serif;
+        letter-spacing: -0.5px;
+        background-color: darkslategray;
+
+    }
+
+    .Mobile{
+        display:none;
+    }
+
+    .Desktop{
+        position:relative;
+        width: 400px;
+        display: inline;
+        float:right;
+        justify-content: right;
+
+    }
+
+    main{
+        margin:50px;
+        border-radius: 20px;
+    }
+
+    main h2{
+        font-size: 40px;
+    }
+
+    .bre{
+        content: "";
+    }
+
+    main li{
+        list-style-type: none;
+        line-height: 25px;
+        
+    }
+
+    main li br{
+        content: "";
+    }
+    
+    #fon{
+        display: inline;
+        color: tomato;
+        padding:10px;
+    }
+
+    ol{
+        padding: 0;
+    }
 
 
 }
