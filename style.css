@@ -1,0 +1,48 @@
+body{
+    font-family:Roboto,sans-serif;
+    margin: 0;
+}
+
+
+@media screen and (max-width:375px){
+    body{
+        font-weight: 400;
+    }
+
+    .Mobile{
+        position: sticky;
+        width: 100%;
+    }
+
+    .Desktop{
+        display: none;
+    }
+
+    main{
+        padding-left:20px;
+    }
+
+    main h2{
+        font-size:35px;
+    }
+
+    main p{
+        font-size: 18px;
+    }
+
+    main li{
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+    }
+    
+    #fon{
+        display: inline;
+        color: tomato;
+        padding:10px;
+    }
+    div{
+        text-indent: 2px;
+    }
+    
+}
